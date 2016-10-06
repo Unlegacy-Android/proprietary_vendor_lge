@@ -14,11 +14,11 @@
 
 # LGE blob(s) necessary for Mako hardware
 PRODUCT_COPY_FILES := \
-    vendor/lge/mako/proprietary/libacdbdata.so:system/lib/libacdbdata.so:lge \
-    vendor/lge/mako/proprietary/libAKM.so:system/lib/libAKM.so:lge \
-    vendor/lge/mako/proprietary/libcamera_fast_af.so:system/lib/libcamera_fast_af.so:lge \
+    vendor/lge/mako/proprietary/libacdbdata.so:system/vendor/lib/libacdbdata.so:lge \
+    vendor/lge/mako/proprietary/libAKM.so:system/vendor/lib/libAKM.so:lge \
+    vendor/lge/mako/proprietary/libcamera_fast_af.so:system/vendor/lib/libcamera_fast_af.so:lge \
     vendor/lge/mako/proprietary/libDxHdcp.so:system/vendor/lib/libDxHdcp.so:lge \
-    vendor/lge/mako/proprietary/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so:lge \
+    vendor/lge/mako/proprietary/libmorpho_noise_reduction.so:system/vendor/lib/libmorpho_noise_reduction.so:lge \
     vendor/lge/mako/proprietary/dxhdcp2.b00:system/vendor/firmware/dxhdcp2.b00:lge \
     vendor/lge/mako/proprietary/dxhdcp2.b01:system/vendor/firmware/dxhdcp2.b01:lge \
     vendor/lge/mako/proprietary/dxhdcp2.b02:system/vendor/firmware/dxhdcp2.b02:lge \
