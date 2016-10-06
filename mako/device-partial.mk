@@ -17,10 +17,15 @@ PRODUCT_COPY_FILES := \
     vendor/lge/mako/proprietary/libacdbdata.so:system/lib/libacdbdata.so:lge \
     vendor/lge/mako/proprietary/libAKM.so:system/lib/libAKM.so:lge \
     vendor/lge/mako/proprietary/libcamera_fast_af.so:system/lib/libcamera_fast_af.so:lge \
+    vendor/lge/mako/proprietary/libDxHdcp.so:system/vendor/lib/libDxHdcp.so:lge \
     vendor/lge/mako/proprietary/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so:lge \
+    vendor/lge/mako/proprietary/dxhdcp2.b00:system/vendor/firmware/dxhdcp2.b00:lge \
+    vendor/lge/mako/proprietary/dxhdcp2.b01:system/vendor/firmware/dxhdcp2.b01:lge \
+    vendor/lge/mako/proprietary/dxhdcp2.b02:system/vendor/firmware/dxhdcp2.b02:lge \
+    vendor/lge/mako/proprietary/dxhdcp2.b03:system/vendor/firmware/dxhdcp2.b03:lge \
+    vendor/lge/mako/proprietary/dxhdcp2.mdt:system/vendor/firmware/dxhdcp2.mdt:lge \
     vendor/lge/mako/proprietary/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00:lge \
     vendor/lge/mako/proprietary/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01:lge \
     vendor/lge/mako/proprietary/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02:lge \
     vendor/lge/mako/proprietary/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03:lge \
-    vendor/lge/mako/proprietary/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt:lge \
-
+    vendor/lge/mako/proprietary/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt:lge
