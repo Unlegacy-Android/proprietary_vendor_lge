@@ -77,7 +77,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/libmmQSM.so:system/lib/libmmQSM.so \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/librpmb.so:system/lib/librpmb.so \
@@ -137,7 +136,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -146,8 +144,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/libDxHdcp.so:system/vendor/lib/libDxHdcp.so \
@@ -206,11 +202,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/libvss_nv_core.so:system/vendor/lib/libvss_nv_core.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/libvss_nv_idl.so:system/vendor/lib/libvss_nv_idl.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/libvss_nv_iface.so:system/vendor/lib/libvss_nv_iface.so \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
@@ -226,3 +218,4 @@ PRODUCT_PACKAGES += \
 VENDOR_QCOM_PATH := vendor/qcom
 
 $(call inherit-product, $(VENDOR_QCOM_PATH)/hammerhead/device-partial.mk)
+$(call inherit-product-if-exists, vendor/widevine/arm-generic/widevine-vendor.mk)
