@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/framework/serviceitems.jar:system/framework/serviceitems.jar \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/hw/flp.msm8974.so:system/lib/hw/flp.msm8974.so \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/hw/gps.msm8974.so:system/lib/hw/gps.msm8974.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/libchromatix_imx179_common.so:system/lib/libchromatix_imx179_common.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/libchromatix_imx179_default_video.so:system/lib/libchromatix_imx179_default_video.so \
@@ -69,10 +68,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
