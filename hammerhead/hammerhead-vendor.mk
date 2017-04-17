@@ -151,6 +151,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/libDxHdcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDxHdcp.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/libFuzzmmstillomxenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFuzzmmstillomxenc.so \
+    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/libfrsdk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfrsdk.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgeofence.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/lib/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libizat_core.so \
