@@ -225,3 +225,4 @@ PRODUCT_PACKAGES += \
 VENDOR_QCOM_PATH := vendor/qcom
 
 $(call inherit-product, $(VENDOR_QCOM_PATH)/hammerhead/device-partial.mk)
+$(call inherit-product-if-exists, $(VENDOR_QCOM_PATH)/bluetooth/bluetooth-vendor.mk)
