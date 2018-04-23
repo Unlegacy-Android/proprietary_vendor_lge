@@ -37,13 +37,13 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/bin/usbhub:$(TARGET_COPY_OUT_VENDOR)/bin/usbhub \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/bin/usbhub_init:$(TARGET_COPY_OUT_VENDOR)/bin/usbhub_init \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/etc/acdb/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdb/MTP_Bluetooth_cal.acdb \
+    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/etc/acdb/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdb/MTP_General_cal.acdb \
+    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/etc/acdb/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdb/MTP_Global_cal.acdb \
+    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/etc/acdb/MTP_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdb/MTP_Handset_cal.acdb \
+    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/etc/acdb/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdb/MTP_Hdmi_cal.acdb \
+    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/etc/acdb/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdb/MTP_Headset_cal.acdb \
+    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/etc/acdb/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdb/MTP_Speaker_cal.acdb \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/etc/DxHDCP.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/DxHDCP.cfg \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
