@@ -34,8 +34,6 @@ PRODUCT_COPY_FILES := \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so:lge \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so:lge \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/bin/vss_init:system/vendor/bin/vss_init:lge \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/firmware/bcm2079x-b5_firmware.ncd:system/vendor/firmware/bcm2079x-b5_firmware.ncd:lge \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/firmware/bcm2079x-b5_pre_firmware.ncd:system/vendor/firmware/bcm2079x-b5_pre_firmware.ncd:lge \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/firmware/bu24205_LGIT_VER_2_DATA1.bin:system/vendor/firmware/bu24205_LGIT_VER_2_DATA1.bin:lge \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/firmware/bu24205_LGIT_VER_2_DATA2.bin:system/vendor/firmware/bu24205_LGIT_VER_2_DATA2.bin:lge \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/firmware/bu24205_LGIT_VER_2_DATA3.bin:system/vendor/firmware/bu24205_LGIT_VER_2_DATA3.bin:lge \
