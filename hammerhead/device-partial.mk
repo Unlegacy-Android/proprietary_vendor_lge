@@ -16,18 +16,18 @@ VENDOR_LGE_PATH ?= vendor/lge
 
 # LGE blob(s) necessary for Hammerhead hardware
 PRODUCT_COPY_FILES := \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:lge \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb:lge \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb:lge \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb:lge \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:lge \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb:lge \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:lge \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar:lge \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/framework/serviceitems.jar:system/framework/serviceitems.jar:lge \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so:lge \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so:lge \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/bin/vss_init:system/vendor/bin/vss_init:lge \
+    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/firmware/acdbdata/MTP_Bluetooth_cal.acdb:system/vendor/firmware/acdbdata/MTP_Bluetooth_cal.acdb:lge \
+    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/firmware/acdbdata/MTP_General_cal.acdb:system/vendor/firmware/acdbdata/MTP_General_cal.acdb:lge \
+    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/firmware/acdbdata/MTP_Global_cal.acdb:system/vendor/firmware/acdbdata/MTP_Global_cal.acdb:lge \
+    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/firmware/acdbdata/MTP_Handset_cal.acdb:system/vendor/firmware/acdbdata/MTP_Handset_cal.acdb:lge \
+    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/firmware/acdbdata/MTP_Hdmi_cal.acdb:system/vendor/firmware/acdbdata/MTP_Hdmi_cal.acdb:lge \
+    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/firmware/acdbdata/MTP_Headset_cal.acdb:system/vendor/firmware/acdbdata/MTP_Headset_cal.acdb:lge \
+    $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/firmware/acdbdata/MTP_Speaker_cal.acdb:system/vendor/firmware/acdbdata/MTP_Speaker_cal.acdb:lge \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/firmware/bu24205_LGIT_VER_2_DATA1.bin:system/vendor/firmware/bu24205_LGIT_VER_2_DATA1.bin:lge \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/firmware/bu24205_LGIT_VER_2_DATA2.bin:system/vendor/firmware/bu24205_LGIT_VER_2_DATA2.bin:lge \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/vendor/firmware/bu24205_LGIT_VER_2_DATA3.bin:system/vendor/firmware/bu24205_LGIT_VER_2_DATA3.bin:lge \
