@@ -23,12 +23,6 @@ PRODUCT_COPY_FILES := \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:lge \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb:lge \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:lge \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg:lge \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/etc/flp.conf:system/etc/flp.conf:lge \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml:lge \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/etc/permissions/serviceitems.xml:system/etc/permissions/serviceitems.xml:lge \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/etc/qcril.db:system/etc/qcril.db:lge \
-    $(VENDOR_LGE_PATH)/hammerhead/proprietary/etc/sensor_def_hh.conf:system/etc/sensor_def_hh.conf:lge \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar:lge \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/framework/serviceitems.jar:system/framework/serviceitems.jar:lge \
     $(VENDOR_LGE_PATH)/hammerhead/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so:lge \
